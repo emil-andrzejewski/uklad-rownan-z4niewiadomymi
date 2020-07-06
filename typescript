@@ -1,0 +1,140 @@
+Script started on nie, 11 kwi 2010, 16:36:50
+]0;emil@emil-desktop: ~/Pulpit/AUkladyRownanemil@emil-desktop:~/Pulpit/AUkladyRownan$ make <test.txt
+rm -f core*; ./uklady_rownan
+
+ Rozwiazywane rownanie:  Ax = b 
+
+ Uwaga!
+ Program radzi sobie rowniez w sytuacji, gdy
+ w czasie wyznaczania macierzy trojkatnej na 
+ przekatnej pojawia sie zera
+
+ a - wczytaj macierz wspolczynnikow A
+ b - wczytaj wektor wyrazow wolnych b
+ p - pokaz rownanie
+ r - rozwiaz, pokaz wynik i blad
+ ? - ponowne wyswietlenie menu
+ q - wyjscie z programu
+
+Twoj wybor?> 
+
+ Wprowadz wspolczynniki macierzy ukladu rownan.
+ Nalezy je podac w kolejnosci: A_11 A_12 A_13 A_21 itd.
+    A_11 A_12 A_13
+    A_21 A_22 A_23
+    A_31 A_32 A_33
+
+
+Twoj wybor?> 
+
+ Wprowadz wspolczynniki wektora wyrazow wolnych.
+ Nalezy je podac w kolejnosci: b_1 b_2 b_3
+
+Twoj wybor?> 
+
+0*x1+2*x2+1*x3 = 4.1
+2*x1+1*x2+1*x3 = 0.2
+4*x1+1*x2+2*x3 = 1.5
+
+Twoj wybor?> 
+
+ Rozwiazanie (x1,x2,x3): (-2.5, -1.1, 6.3)
+
+ Blad: 1.08369e-06
+
+Twoj wybor?> 
+
+ Wprowadz wspolczynniki wektora wyrazow wolnych.
+ Nalezy je podac w kolejnosci: b_1 b_2 b_3
+
+Twoj wybor?> 
+
+0*x1+2*x2+1*x3 = 22652
+2*x1+1*x2+1*x3 = 4.43432e+07
+4*x1+1*x2+2*x3 = 178979
+
+Twoj wybor?> 
+
+ Rozwiazanie (x1,x2,x3): (6.6414e+07, 8.85075e+07, -1.76992e+08)
+
+ Blad: 9.43398
+
+Twoj wybor?> 
+
+ Wprowadz wspolczynniki macierzy ukladu rownan.
+ Nalezy je podac w kolejnosci: A_11 A_12 A_13 A_21 itd.
+    A_11 A_12 A_13
+    A_21 A_22 A_23
+    A_31 A_32 A_33
+
+
+Twoj wybor?> 
+
+ Wprowadz wspolczynniki wektora wyrazow wolnych.
+ Nalezy je podac w kolejnosci: b_1 b_2 b_3
+
+Twoj wybor?> 
+
+1*x1+0*x2+0*x3 = 0.5
+1*x1+1000*x2+0*x3 = 500.5
+1*x1+0*x2+1000*x3 = 500.5
+
+Twoj wybor?> 
+
+ Rozwiazanie (x1,x2,x3): (0.5, 0.5, 0.5)
+
+ Blad: 0
+
+Twoj wybor?> 
+
+ Wprowadz wspolczynniki macierzy ukladu rownan.
+ Nalezy je podac w kolejnosci: A_11 A_12 A_13 A_21 itd.
+    A_11 A_12 A_13
+    A_21 A_22 A_23
+    A_31 A_32 A_33
+
+
+Twoj wybor?> 
+
+ Wprowadz wspolczynniki wektora wyrazow wolnych.
+ Nalezy je podac w kolejnosci: b_1 b_2 b_3
+
+Twoj wybor?> 
+
+1000*x1+1*x2+0*x3 = 500.5
+1000*x1+0*x2+1*x3 = 500.5
+1*x1+0*x2+0*x3 = 0.5
+
+Twoj wybor?> 
+
+ Rozwiazanie (x1,x2,x3): (0.5, 0.500024, 0.500024)
+
+ Blad: 2.98023e-08
+
+Twoj wybor?> 
+
+Wybrano niepoprawna opcje. Sprobuj jeszcze raz.
+
+Twoj wybor?> 
+
+
+ Rozwiazywane rownanie:  Ax = b 
+
+ Uwaga!
+ Program radzi sobie rowniez w sytuacji, gdy
+ w czasie wyznaczania macierzy trojkatnej na 
+ przekatnej pojawia sie zera
+
+ a - wczytaj macierz wspolczynnikow A
+ b - wczytaj wektor wyrazow wolnych b
+ p - pokaz rownanie
+ r - rozwiaz, pokaz wynik i blad
+ ? - ponowne wyswietlenie menu
+ q - wyjscie z programu
+
+Twoj wybor?> 
+
+]0;emil@emil-desktop: ~/Pulpit/AUkladyRownanemil@emil-desktop:~/Pulpit/AUkladyRownan$ exit
+exit
+
+Script done on nie, 11 kwi 2010, 16:37:12

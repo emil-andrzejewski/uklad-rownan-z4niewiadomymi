@@ -1,0 +1,26 @@
+Blad obliczen bedzie najmniejszy, gdy 3 plaszczyzny utworzone przez 
+dane 3 rownania beda zblizenie prostopadle lub prostopadle wzgledem siebie.
+Np.:
+x+1000y=500.5
+x+1000z=500.5
+x=0,5
+Otrzymujemy wtedy rozwiazanie:
+ Rozwiazanie (x1,x2,x3): (0.5, 0.5, 0.5)
+
+ Blad: 0
+
+
+Blad obliczen bedzie najwiekszy, gdy 3 plaszczyzny utworzone przez dane 
+3 rownania beda zblizenie rownolegle wzledem siebie.
+Np.:
+1000x+y=500.5
+1000x+z=500.5
+x=0.5
+Otrzymujemy wtedy rozwiazanie:
+ Rozwiazanie (x1,x2,x3): (0.5, 0.500024, 0.500024)
+
+ Blad: 2.98023223876953125e-08
+
+I mimo, że blad wyliczony przez program jest rzedu 3E-08 to widac, ze
+rozwiazanie podane przez program rozni sie dosyc znacznie od rozwiazania
+rzeczywistego wynoszacego (0.5, 0.5, 0.5)
